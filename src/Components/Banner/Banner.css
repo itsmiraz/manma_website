@@ -1,0 +1,68 @@
+.banner{
+    background-image: url('../../assets/Image_10.png');
+    width: 100%;
+    height: 550px;
+    background-size: cover;
+    color: white;
+    /* padding: 20px; */
+    background-position: center;
+}
+
+
+@keyframes float {
+	0% {
+		
+		transform: translate(0px);
+	}
+   
+	50% {
+		transform: translate(0px,-10px);
+	}
+   
+	100% {
+		transform: translate(0px);
+	}
+}
+@keyframes flow {
+	0% {
+		
+		transform: translate(0px);
+	}
+   
+	50% {
+        transform: translate(10px,-10px);
+	}
+   
+	100% {
+		transform: translate(0px);
+	}
+}
+@keyframes flowting {
+	0% {
+		
+		transform: translate(0px);
+	}
+   
+	50% {
+        transform: translate(10px,-10px);
+	}
+   
+	100% {
+		transform: translate(0px);
+	}
+}
+
+
+
+.avatar {
+	transform: translatey(0px);
+	animation: float 3s ease-in-out infinite;
+}
+.avatarleft {
+	transform: translatey(0px);
+	animation: flowting 3s ease-in-out infinite;
+}
+.product {
+	transform: translatey(0px);
+	animation: flow 3s ease-in-out infinite;
+}
