@@ -66,3 +66,7 @@
 	transform: translatey(0px);
 	animation: flow 3s ease-in-out infinite;
 }
+
+.text{
+	font-size: 40px;
+}
